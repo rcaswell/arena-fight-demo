@@ -1,0 +1,4 @@
+<div class="log" ng-repeat="l in ctrl.logs track by $index">
+    <span class="{{l.LogType}}" ng-if="l.LogType == ctrl.LogType.Attack">{{l.Attacker.Name}} hits {{l.Target.Name}} for {{l.Amount}} <span ng-show="{{l.IsDead}}"> {{l.Target.Name}} IS DEAD!!!</span>
+    <span class="{{l.LogType}}" ng-if="l.LogType == 'NotSpecifed'">Unspecified Log Event Occurred!</span>    
+</div>
