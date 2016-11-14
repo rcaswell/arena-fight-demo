@@ -1,0 +1,59 @@
+{
+  "name": "arena-fight",
+  "version": "1.0.0",
+  "description": "a demo of angularjs arena fighter game and simulator",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-bootstrap": "^2.2.0",
+    "angular-ui-router": "^0.3.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jspm": "^0.16.48",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0",
+    "plugin-typescript": "^5.2.7",
+    "typescript": "^2.0.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-uglify": "^2.0.0",
+    "jspm": "^0.16.48"
+  },
+  "scripts": {
+    "test": "aftest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcaswell/arena-fight-demo.git"
+  },
+  "keywords": [
+    "arena"
+  ],
+  "author": "Ryan Caswell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcaswell/arena-fight-demo/issues"
+  },
+  "homepage": "https://github.com/rcaswell/arena-fight-demo#readme",
+  "jspm": {
+    "dependencies": {
+      "angular": "npm:angular@^1.5.8",
+      "angular-ui-bootstrap": "npm:angular-ui-bootstrap@^2.2.0",
+      "angular-ui-router": "npm:angular-ui-router@^0.3.2",
+      "plugin-typescript": "npm:plugin-typescript@^5.2.7",
+      "ts": "github:frankwallis/plugin-typescript@^5.2.9",
+      "typescript": "npm:typescript@^2.0.9"
+    },
+    "devDependencies": {
+      "ts": "github:frankwallis/plugin-typescript@^5.2.9",
+      "typescript": "npm:typescript@^2.0.9"
+    }
+  }
+}

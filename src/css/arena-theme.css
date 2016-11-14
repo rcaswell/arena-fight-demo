@@ -1,0 +1,51 @@
+ 
+ 
+    .loggerPanel > .log {
+            display: block;
+            border-bottom: 0.1em solid silver;
+            background-color: whitesmoke;
+    }
+
+    .playerInfo {
+        display:inline-block;text-align:left;
+        width:90%;
+        background-color:whitesmoke;
+        border:0.1em outset silver;
+        padding:0.3em;
+        cursor: pointer;
+        margin-bottom:0.1em;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        font-size:16px;
+        font-family: Calibri;
+    }
+    .playerInfo label {
+        padding:0.01em 0.3em;
+        display:inline-block;
+    }
+    .playerInfo span {
+        display:inline-block;
+    }
+
+    .playerInfo:hover {
+        background-color:white;
+    }
+
+    .playerInfo div {
+        margin:0 auto;
+        padding:0em;
+        line-height:1em;
+    }
+
+    .playerInfo div.attributes {
+        display:block;
+        font-size:1.5em;
+        line-height:1.3em;
+    }
+
+    .playerInfo.dead {
+        background-color:red;
+    }
+
+    .playerInfoWrapper {display:inline-block; position:relative; clear:both; padding:0; margin:0;width:25%; text-align:center;}

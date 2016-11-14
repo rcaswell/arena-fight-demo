@@ -1,0 +1,10 @@
+<div class="playerInfoWrapper" ng-repeat="p in ctrl.players track by p.Name">
+    <div class="playerInfo {{p.state}}" ng-click="selectPlayer(p)">
+        <div><label>Name</label><span>{{p.Name}}</span></div>
+        <div><label>Health</label><span>{{p.HP}}/{{p.MaxHP}}</span></div>
+        <div class="attributes">
+            <label>Attack</label><span>{{p.ATK}}</span>
+            <label>Defense</label><span>{{p.DEF}}</span>
+        </div>
+    </div>
+</div>
