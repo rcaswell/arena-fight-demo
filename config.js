@@ -6,10 +6,9 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-
   packages: {
     "spa/arena": {
-      "main": "modules/arena-module.ts",
+      "main": "arena-module.ts",
       "defaultExtension": "ts",
       "meta": {
         "*.ts": {
@@ -18,16 +17,7 @@ System.config({
       }
     },
     "spa": {
-      "main": "arena/modules/arena-module.ts",
-      "defaultExtension": "ts",
-      "meta": {
-        "*.ts": {
-          "loader": "ts"
-        }
-      }
-    },
-    "src/ts/arena/interfaces/arena-game.ts": {
-      "main": "",
+      "main": "arena/arena-module.ts",
       "defaultExtension": "ts",
       "meta": {
         "*.ts": {
@@ -36,7 +26,6 @@ System.config({
       }
     }
   },
-
   map: {
     "angular": "npm:angular@1.5.8",
     "angular-ui-bootstrap": "npm:angular-ui-bootstrap@2.2.0",

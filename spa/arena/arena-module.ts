@@ -1,13 +1,14 @@
 import { ILocationProvider } from 'angular';
 import { IStateProvider, IUrlRouterProvider } from 'angular-ui-router';
-import { ArenaController } from '../controllers/ArenaController';
-import { PlayerService } from '../services/playerService';
+import { ArenaController } from './controllers/ArenaController';
+import { PlayerService } from './services/playerService';
 
 let modules = ['ui.router', 'ui.bootstrap'];
 let app = angular.module('arena', modules);
 
 app.controller('ArenaController', ArenaController);
 app.service('PlayerService', PlayerService);
+
 
 app.config(['$locationProvider', '$stateProvider', '$urlRouterProvider', 
     ($locationProvider: ILocationProvider, $stateProvider: IStateProvider, $urlRouterProvider: IUrlRouterProvider) =>
