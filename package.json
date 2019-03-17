@@ -42,6 +42,9 @@
     "url": "https://github.com/rcaswell/arena-fight-demo/issues"
   },
   "homepage": "https://github.com/rcaswell/arena-fight-demo#readme",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/jspm install -y"
+  },
   "jspm": {
     "dependencies": {
       "angular": "npm:angular@^1.5.8",
